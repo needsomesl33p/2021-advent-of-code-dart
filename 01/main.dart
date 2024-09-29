@@ -14,7 +14,7 @@ int countIncrease(List<String> inputData) {
   return numberOfIncrease;
 }
 
-Future<void> main() async {
+void main() {
   var inputData = readSync();
   print(countIncrease(inputData));
 }

@@ -2,7 +2,7 @@ import 'dart:core';
 import 'dart:io';
 
 Future<List<String>> readAsync() async {
-  return await File('input.txt').readAsLinesSync();
+  return await File('input.txt').readAsLines();
 }
 
 List<List<List<String>>> generateBoards(List<String> inputData) {

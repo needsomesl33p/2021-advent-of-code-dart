@@ -1,9 +1,8 @@
 import 'dart:core';
 import 'dart:io';
-import 'dart:async';
 
 Future<List<String>> readAsync() async {
-  return await File('input.txt').readAsLinesSync();
+  return await File('input.txt').readAsLines();
 }
 
 int countIncrease(List<String> inputData) {
